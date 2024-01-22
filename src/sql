@@ -283,4 +283,4 @@ join client c on h.client_id = c.client_id
 join agent a on h.agent_id = a.agent_id;
 -- 24
 
-select h.rating from house h limit 5;
+select h.rating from house h limit 5; ;
